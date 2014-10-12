@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>sample-app</groupId>
+    <artifactId>sample-app</artifactId>
+    <version>0.1-SNAPSHOT</version>
+    <packaging>pom</packaging>
+
+    <dependencies>
+    <!-- Get the dependencies for the script itself	-->
+        <dependency>
+            <groupId>ezbake</groupId>
+            <artifactId>local-zookeeper</artifactId>
+            <version>0.1-SNAPSHOT</version>
+            <classifier>jar-with-dependencies</classifier>
+            <exclusions>
+                <exclusion>
+                    <groupId>*</groupId>
+                    <artifactId>*</artifactId>
+                </exclusion>
+            </exclusions>
+        </dependency>
+        <dependency>
+            <groupId>local-accumulo</groupId>
+            <artifactId>local-accumulo</artifactId>
+            <version>0.1-SNAPSHOT</version>
+            <classifier>jar-with-dependencies</classifier>
+            <exclusions>
+                <exclusion>
+                    <groupId>*</groupId>
+                    <artifactId>*</artifactId>
+                </exclusion>
+            </exclusions>
+        </dependency>
+        <dependency>
+            <groupId>ezbake</groupId>
+                <artifactId>frack-submitter-service</artifactId>
+                <version>0.1-SNAPSHOT</version>
+                <classifier>jar-with-dependencies</classifier>
+            <exclusions>
+                <exclusion>
+                     <groupId>*</groupId>
+                     <artifactId>*</artifactId>
+                </exclusion>
+            </exclusions>
+       </dependency>
+        <dependency>
+            <groupId>ezbake</groupId>
+            <artifactId>ezbake-thrift-runner</artifactId>
+            <version>0.1-SNAPSHOT</version>
+            <exclusions>
+                <exclusion>
+                    <groupId>*</groupId>
+                    <artifactId>*</artifactId>
+                </exclusion>
+            </exclusions>
+        </dependency>
+
+	<dependency>
+		<groupId>ezbake</groupId>
+		<artifactId>ezbake-security-service</artifactId>
+		<version>0.1-SNAPSHOT</version>
+		<classifier>thrift-runnable</classifier>
+		<exclusions>
+			<exclusion>
+				<groupId>*</groupId>
+				<artifactId>*</artifactId>
+			</exclusion>
+		</exclusions>
+	</dependency>
+
+        <!-- Ez security Registration Service -->
+        <dependency>
+          <groupId>ezbake</groupId>
+	  <artifactId>ezbake-security-registration</artifactId>
+	  <version>0.1-SNAPSHOT</version>
+	  <classifier>thrift-runnable</classifier>
+	  <exclusions>
+	    <exclusion>
+	      <groupId>*</groupId>
+	      <artifactId>*</artifactId>
+	    </exclusion>
+	  </exclusions>
+        </dependency>
+
+	<!-- Ezbake Protect mock services -->
+	<dependency>
+		<groupId>ezbake.protect</groupId>
+		<artifactId>mock-services</artifactId>
+		<version>0.1-SNAPSHOT</version>
+                <classifier>jar-with-dependencies</classifier>
+          <exclusions>
+            <exclusion>
+              <groupId>*</groupId>
+              <artifactId>*</artifactId>
+            </exclusion>
+          </exclusions>
+
+	</dependency>
+            <!-- Warehaus is needed for any Frack Pipelines -->
+        <dependency>
+                <groupId>ezbake</groupId>
+                <artifactId>warehaus</artifactId>
+                <version>0.1-SNAPSHOT</version>
+                <classifier>jar-with-dependencies</classifier>
+                <exclusions>
+                        <exclusion>
+                                <groupId>*</groupId>
+                                <artifactId>*</artifactId>
+                        </exclusion>
+                </exclusions>
+        </dependency>
+        <dependency>
+            <groupId>ezbake.data</groupId>
+            <artifactId>elastic-security</artifactId>
+            <version>0.1-SNAPSHOT</version>
+            <classifier>standalone</classifier>
+	    <exclusions>
+                    <exclusion>
+                            <groupId>*</groupId>
+                                <artifactId>*</artifactId>
+                        </exclusion>
+                </exclusions>
+        </dependency>
+
+
+        <!-- RedisMQ is used for broadcasting in the development environment -->
+	    <dependency>
+                <groupId>ezbake</groupId>
+                <artifactId>ezbroadcast-redismq</artifactId>
+                <version>0.1-SNAPSHOT</version>
+                <classifier>jar-with-dependencies</classifier>
+                <exclusions>
+                        <exclusion>
+                                <groupId>*</groupId>
+                                <artifactId>*</artifactId>
+                        </exclusion>
+                </exclusions>
+        </dependency>
+
+	<!-- Add your dependencies here -->
+
+    </dependencies>
+    <build>
+        <finalName>sample-app</finalName>
+        <plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-dependency-plugin</artifactId>
+                <version>2.4</version>
+                <executions>
+                    <execution>
+                        <id>dependencies</id>
+                        <phase>compile</phase>
+                        <goals>
+                            <goal>copy-dependencies</goal>
+                        </goals>
+                        <configuration>
+                            <outputDirectory>${basedir}</outputDirectory>
+                            <type>jar</type>
+                            <stripVersion>true</stripVersion>
+                        </configuration>
+                    </execution>
+                </executions>
+            </plugin>
+        </plugins>
+    </build>
+</project>

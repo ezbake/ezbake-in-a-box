@@ -1,0 +1,50 @@
+{
+    "CN=EzbakeClient, OU=Ezbake, O=Ezbake, C=US": {
+        "name": "Ezbake Client",
+        "uid": "EzbakeClient.1234567890",
+        "authorizations": {
+            "level":"S",
+            "auths":["U", "C"],
+            "citizenship":"USA",
+            "organization": "Ezbake"
+        },
+        "groups": {
+            "EzBake": [
+                "Core",
+                "Frack"
+            ]
+        },
+        "communities": [{
+            "communityName": "EZBAKE",
+            "communityType": "YES",
+            "organization": "Ezbake",
+            "topic":["TopicA"],
+            "region":["Region1"],
+            "groups":[]
+        }]
+    },
+    "CN=EzbakeAdmin, OU=Ezbake, O=Ezbake, C=US": {
+            "name": "Ezbake Admin",
+            "uid": "EzbakeAdmin.1234567890",
+            "authorizations": {
+                "level":"S",
+                "auths":["U", "C"],
+                "citizenship":"USA",
+                "organization": "Ezbake"
+            },
+            "groups": {
+                "EzBake": [
+                    "Core",
+                    "Frack",
+                    "Security"
+                ]
+        },
+        "communities": [{
+            "communityType": "YES",
+            "organization": "Ezbake",
+            "topic":["TopicA"],
+            "region":["Region1"],
+            "groups":[]
+        }]
+    }
+}

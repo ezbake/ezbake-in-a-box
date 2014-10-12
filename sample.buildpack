@@ -1,0 +1,15 @@
+{
+    "auths": ["TS", "S", "U", "C", "FOUO", "USA"],
+    "services": [
+                {
+                    "runner": "java",
+                    "options": "-j warehaus.jar  -s warehaus -x warehaus -D ezbake.security.app.id=warehaus"
+                },
+                {
+                    "runner": "java",
+                    "options": "-j quarantine.jar -s quarantine -x quarantine -c ezbake.quarantine.service.QuarantineService -D ezbake.security.app.id=quarantine"
+                }
+    ],
+    "pipelines" : [
+    ]
+}

@@ -1,0 +1,98 @@
+[
+{
+    "securityId": "sample-id",
+    "level": "U",
+    "authorizations": ["TS", "S", "U", "C", "FOUO", "USA"],
+    "publicKey": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA3wDb+w2L7C6pHRkp7HwQ
+        iU42TCmMXGh/Ir+VoWtDWOnmTFpyXK8jilkSxYufcKF+xV71aiepx7/h6dYx5pFk
+        YO+cn6VfQQwC+KCY+l4Q8/c91snNEMWindmZ7izpMIr4tczHcnT0Kh/tKf8hYBQB
+        zLpUOYZNhAMgaAPOXNsxFSq7dM0xmCrCDgYUD4A/OcdELG7SWst+cW7fqTGqGmvJ
+        pmQo8nwyGNYBpmkXFGiuPgWTDvWYzo9r7pDgdTQa367sj4pIiods/nJZVfk1RJ5r
+        kbln0wno52VRKkUaEzPiECnidhITOppzYy9Lm9+dLxbkfYEAjzyYSg9yfYDTV4pH
+        jwIDAQAB"
+},
+{
+    "securityId": "client",
+    "level": "U",
+    "authorizations": ["TS", "S", "U", "C", "FOUO", "USA"],
+    "publicKey": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAwPjvGGqlO9bPV0POLUeO
+        UJ+RCoROtZLu4CrH5ZqH+LSH7BEo4TbArMiW9xc+0aIV/l+laWsv06uLLBqOtrAv
+        TEKyBoGdKND2K6gv2niKFLB2a6x0H/ABVAEEyGiTOXw3vbuMeL4dxzgyY/orX2xN
+        zAuQmglE2veSVGhOZO366fi2Wjzt58D8tlCA3r5xV0vMkTEtusltEJqxb3moRT55
+        CDH14R5DxAUW4eY3fWl830mGXspKcXxMmmRMk18HEKpkUvQyTZh+urmbBKpab9rg
+        U3pM0R32y1Ki8hpxh75o/P1GNtgGNEIUMCkFExZOWOfOzCvWgBLaaSservdeRvpb
+        1wIDAQAB"
+},
+{
+    "securityId": "Pipeline01",
+    "level": "U",
+    "authorizations": ["TS", "S", "U", "C", "FOUO", "USA"],
+    "publicKey": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAndSE4VNwbBF6e5BB7lvZ
+        6iuWfkxiwV7LyYvuzjsE/t0eeELrV598A9c3eNSwQmAFpi1rqJ1RZusVhX2UcxBl
+        zcKISSZG82QPdFTmhlZ/ZCVdVO6pxn/fMIVJUeGQ4tptnBzB06y8OYtN+EaXhFFC
+        Fcr2AUHyctvbuywryT235Z6T+2YRP0xeZ+tLtv70zpPECriS1ZdKKlV0adOzTG2X
+        upWYdbFBnV1UtdUgc3Cb0xKLDQ8DaAxukK/4OtX13+aAE1maH2oygNtnOMqWnJbC
+        jqr4uBb3S+s0Lg5lzr9pkPrCLxfqYm6fu4TF8c3V+8YdMH99ZSj/GyV9Ua6+FI+f
+        0QIDAQAB"
+},
+{
+    "securityId": "Pipeline02",
+    "level": "U",
+    "authorizations": ["TS", "S", "U", "C", "FOUO", "USA"],
+    "publicKey": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAs6yAfP6v2gAKkfD/aZZb
+        +kdMakQUobmzibzPjY+QlgaiDPLR+rDnk596ckJ3pfXdYHyiE4DzTzZXye9E60zD
+        sgjRevYe4YTeG/V4DRbT/TXyfY4D6KXxfanG7IbyUfPk7/iUr0eqktsblMcppKtp
+        ozJ+lPx4n+nP+WVT2FbmGQEeweJ3n1dfu+mJsCM1mt/HRvVnqHfkREBP9HcyoIJR
+        8awi2sZtlyOGa7/+350NpP9YaCbVN07oyUFuqcs/u/X8dioCaav8TOBRS/ORqAma
+        fT33u6lLZRQDV1WznItB4xj6DgVAldWmCrs+qdZzUniZpNWvVEWSaERhYrZSPJPW
+        lwIDAQAB"
+},
+{
+    "securityId": "Pipeline03",
+    "level": "U",
+    "authorizations": ["TS", "S", "U", "C", "FOUO", "USA"],
+    "publicKey": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAtxT71YlrEU/ZLkGAzkO7
+        FwYb5jb8ld0wghi98f5zmSYH4iTLY544QrBoFTLaknt8khjA/2Pm+l9ZPV1PQPwf
+        4n/K0bHwTFQ0XKJGuWhnPnWwtVGjG+qhCvzEhR0qPB6+tm+QMnfQhzjZOwgfXlNY
+        CfYWUaQ8o7HLrXgWpanHEP9f2PqWhJZ0lvTyyzkqVCcK/mJROICk4CWHkWsW5iAI
+        lHQgbFcTUpmTJhphAElY1XUEncqbvOFWKryRv63KKGnRpZGk+7xHDYm5hPzjGFdX
+        0mIbqwcyiKLfS5+1/sDM5PBrklsk14XZvcotQy8zXFmiBdIot0JpTTgQWys3JkUJ
+        wQIDAQAB"
+},
+{
+    "securityId": "GeosExtraction",
+    "level": "U",
+    "authorizations": ["TS", "S", "U", "C", "FOUO", "USA"],
+    "publicKey": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAvQXjJUmbUOP70HotTK7W
+        UTVL5++wfwkblmBzRGy/+3FD3/uDaTlowwPX197yyqLEEghRC2+GuZ4K+yopCsHu
+        KGnoIfDCsPjxZpfrJEDN8BsOPZKM+dKIQ5sLMLX+mChz2F59xnWQA3Y+EabSruIc
+        XS/gOUJELirVVj58wZ7mhh+v5s6qa7rsXvk3Ld9xYCbg0Scv1q/Q7b0iK77QOepT
+        yqC5A7zPqiCr8OpNa0XKlBC+kId7W6HOUDV5ZBMuHq4ZyQJLyrzVJCr12y0Icy3q
+        BPhhN0sOtjnaGWj0H64Tvj+t/8wL7/9YzTnuNTl4iOTYSO714bSMBnf92OEVRiLd
+        4QIDAQAB"
+},
+{
+    "securityId": "warehaus",
+    "level": "U",
+    "authorizations": ["TS", "S", "U", "C", "FOUO", "USA"],
+    "publicKey": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAyFvuUiwd7+BhTe0nGpCL
+        JLBUyckS8E7hfmtWNes0BZaj7PBbYgkPu7uISwFD2+PP4LfYjGb997kamp0bSwmk
+        W87zuKWPFpIGrW6hb4Ik0MyK0u0Zzy+qV+e5nsyeVz6736IN1/fSE7Q218E33hgp
+        st0E7fvC2Y1zm2H8C0ANK5PNwN3SIIm3gTDVdLMnpah9vsjW9ex+RxEMjYDOPI44
+        ZTMgDpL0xajOak5adjSL5mfHxIMFiaddg9qA1PrAlg9onCmw1YS8pp4eFMYjdrr7
+        ZJZQLTdDYBTNI1NHTslo5ivSuOVa7j/K1VXmL9E4k4/FrfJ7+t8mVO/NoCjXDZUY
+        vQIDAQAB"
+},
+{
+    "securityId": "quarantine",
+    "level": "U",
+    "authorizations": ["TS", "S", "U", "C", "FOUO", "USA"],
+    "publicKey": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA2KNTakgoTc//fR5lVGxQ
+        PfuyXtS5JC0f8iAUfplw1y40PMEJUVYqhvz92euqLoNQN1ISJoDvRL630avHRBOF
+        GsQlrrWSyYXMIDj2r0cJ9wHdBiTNAXua6TbHQhp0L/lK7jQYdutdNLzYdEvok2Y7
+        Z42gFPyhvfZfDyzADqzVCUYD/z1PMScXa44sljzrtVxLYNmTSmDRTijwcmIpVXaP
+        +filevlpkmPKql4FDy8PFrQq1EiLeIT1Ki4FbBLT0krWWX2ntycIdb2syMeMoqG+
+        HgcgW0Zjdq0t1AdxMEkwF9OR9sP1NDWayzQ0WwDR3se0CJypNWWbe24+9sa4c7kt
+        pQIDAQAB"
+}
+]
